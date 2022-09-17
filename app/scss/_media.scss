@@ -1,0 +1,249 @@
+@media (max-width: 1320px) {
+  .popular {
+    &__items {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 50px 20px;
+    }
+  }
+}
+@media (max-width: 1076px) {
+  .product {
+    &__inner {
+      flex-wrap: wrap;
+    }
+    &__info {
+      width: 100%;
+    }
+  }
+  .aside {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 50px;
+    &__item {
+      width: 100%;
+    }
+  }
+  .benefits {
+    &__items {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__item {
+      width: 50%;
+      margin: 30px 0;
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .news {
+    &__items {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 30px 30px;
+    }
+  }
+  .menu {
+    position: absolute;
+    background-color: #fff;
+    right: -100px;
+    z-index: 4;
+  }
+  .info__menu {
+    z-index: 4;
+    position: absolute;
+    background-color: #fff;
+    right: -100px;
+  }
+  .menu.show {
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
+    top: 81px;
+    right: 0px;
+  }
+  .info__menu.show {
+    text-align: center;
+    margin: 0 auto;
+    top: 335px;
+    right: 0px;
+    left: 0;
+  }
+  .info__item-img {
+    margin: 0 auto;
+  }
+  .info__item::after {
+    margin: 0 auto;
+    text-align: center;
+    left: 0;
+    right: -40px;
+  }
+  .menu__list,
+  .info__list {
+    display: block;
+  }
+  .menu-toggle {
+    display: block;
+    z-index: 4;
+  }
+  .menu {
+    &__item {
+      margin: 20px 0;
+    }
+  }
+  .info {
+    &__item {
+      margin: 20px 0;
+    }
+  }
+}
+@media (max-width: 820px) {
+  .logo__img {
+    margin: 0 auto 20px;
+  }
+  .footer {
+    &__inner {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    &__box {
+      margin: 0 auto;
+      width: 100%;
+    }
+    &__text {
+      width: 100%;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+    &__list {
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+    &__copyright {
+      margin-bottom: 20px;
+    }
+  }
+  .catalog {
+    &__items {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    &__item:nth-child(5) {
+      grid-column: 1;
+    }
+  }
+  .popular {
+    &__items {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    &__item-btn {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .popular {
+    margin-bottom: 50px;
+  }
+  .news {
+    &__items {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    &__text {
+      padding: 0px 0 5px 10px;
+      font-size: 14px;
+      line-height: 24px;
+    }
+    &__title {
+      padding: 0px 0 5px 10px;
+    }
+    &__date {
+      padding: 15px 0 5px 10px;
+    }
+  }
+  .catalog {
+    margin-bottom: 50px;
+    &__text {
+      width: 100%;
+    }
+    &__subtitle {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  }
+  .benefits {
+    margin-bottom: 50px;
+    &__item {
+      justify-content: center;
+      width: 100%;
+      text-align: center;
+    }
+    &__item-text {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+}
+@media (max-width: 550px) {
+  .catalog {
+    &__items {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    &__item:nth-child(5) {
+      grid-column: 1;
+    }
+  }
+  .banner {
+    min-height: 500px;
+    &__title {
+      display: inline-block;
+      font-size: 24px;
+      line-height: 50px;
+      margin-top: 170px;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .characteristics__item {
+    padding: 10px 10px;
+  }
+  .product {
+    &__info-name {
+      font-size: 36px;
+      line-height: 46px;
+      margin-bottom: 15px;
+    }
+    &__info-instock {
+      margin-bottom: 20px;
+    }
+  }
+  .title {
+    font-size: 25px;
+    margin-bottom: 28px;
+  }
+  .popular {
+    &__item-img {
+      padding: 25px;
+    }
+  }
+}
+@media (max-width: 360px) {
+  .catalog {
+    &__subtitle {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    &__btn {
+      font-size: 14px;
+    }
+  }
+  .benefits {
+    &__item {
+      margin: 15px 0;
+      flex-direction: column;
+    }
+    &__item-img {
+      margin: 0 auto 10px;
+    }
+  }
+}
